@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head'); %>
+      </head>
+<body>
+    <header>
+        <%- include('./partials/header'); %>
+      </header>
+
+
+    <div class="container mt-5">
+        <h1>My Services<br><br></h1>
+
+        <!-- Service 1 -->
+        <div class="card mb-4">
+            <img src="/images/soft.jpeg" class="card-img-top" alt="Service 1 Image">
+            <div class="card-body">
+                <h5 class="card-title">Software Languages expertise</h5>
+                <p class="card-text">Java, Python, C, C#, HTML, CSS, JavaScript, Oracle SQL</p>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="card mb-4">
+            <img src="/images/ops.png" class="card-img-top" alt="Service 2 Image">
+            <div class="card-body">
+                <h5 class="card-title">Operating systems</h5>
+                <p class="card-text">MS Windows, macOS, UNIX /LINUX, Android, IOS</p>
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="card mb-4">
+            <img src="/images/apps.png" class="card-img-top" alt="Service 3 Image">
+            <div class="card-body">
+                <h5 class="card-title">Applications /Frameworks: </h5>
+                <p class="card-text">	IntelliJ, Visual Studio /VS code, Oracle SQL Developer, Git/GitHub, MongoDB, 	
+                    	Nodejs, Wireshark, Cisco Packet Trace, Eclipse, Unity, Unreal Engine, Spyder IDE,		Jupyter Notebook, Microsoft Office, Notepad++, Oracle Virtual Machine
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <%- include('./partials/content'); %>
+
+    <footer >
+        <%- include('./partials/footer'); %>
+    </footer>
+</body>
+</html>
